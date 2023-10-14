@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>music-player</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="img"></div>
-        <div class="player">
+        <div class="wrapperPlayer">
             <div class="nameSong">
-                <h1></h1>
+                <h1 class="song"></h1>
                 <div class="icon"></div>
             </div>
+            <p class="nameSonger"></p>
+            <div class="progress">
+                <div class="lineSong"></div>
+                <p class="timeSong">00:00</p>
+            </div>
+            <div class="buttons">
+                <div class="repeatSong"></div>
+                <div class="back"></div>
+                <div class="play"></div>
+                <div class="next"></div>
+                <div class="heart"></div>
+            </div>
         </div>
-
+        <audio src=""></audio>
     </div>
     <script src="./app.js"></script>
 </body>
+
 </html>
